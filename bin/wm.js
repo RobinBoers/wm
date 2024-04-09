@@ -88,6 +88,8 @@ if (!send) {
       } else {
         console.log('No webmention endpoints found');
       }
+
+      process.exit(1);
     }
 
     res.map((res) => {
